@@ -1,0 +1,35 @@
+/* HomeFlow Design Tokens */
+:root {
+  /* Paleta principal */
+  --color-bg:          #0D0F14;
+  --color-surface:     #13161E;
+  --color-surface-2:   #1C2030;
+  --color-primary:     #6C63FF;
+  --color-accent:      #FF6B6B;
+  --color-warm:        #FFB347;
+  --color-green:       #4ECDC4;
+  --color-text:        #E8EAF0;
+  --color-text-muted:  #6B7280;
+  --color-border:      #1F2433;
+
+  /* Fontes */
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Inter', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* Espaçamento */
+  --section-padding-desktop: 120px;
+  --section-padding-mobile:  64px;
+  --gap-grid:                24px;
+  --radius-card:             16px;
+  --radius-pill:             999px;
+
+  /* Sombras */
+  --shadow-card:    0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-glow:    0 0 24px rgba(108, 99, 255, 0.35);
+  --shadow-accent:  0 0 24px rgba(255, 107, 107, 0.35);
+
+  /* Gradientes */
+  --gradient-primary: linear-gradient(135deg, #6C63FF 0%, #4ECDC4 100%);
+  --gradient-progress: linear-gradient(90deg, #6C63FF, #FF6B6B);
+}
