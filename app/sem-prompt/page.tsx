@@ -68,7 +68,7 @@ export default function SemPromptPage() {
           {testimonials.map((t) => (
             <div key={t.name} style={s.card()}>
               <div style={{ color: "#ffc107", marginBottom: "10px" }}>★★★★★</div>
-              <p style={{ color: "#555", fontSize: "0.875rem", lineHeight: 1.6, marginBottom: "14px" }}>"{t.text}"</p>
+              <p style={{ color: "#555", fontSize: "0.875rem", lineHeight: 1.6, marginBottom: "14px" }}>&ldquo;{t.text}&rdquo;</p>
               <span style={{ fontWeight: 600, fontSize: "0.8rem", color: "#999" }}>— {t.name}</span>
             </div>
           ))}
