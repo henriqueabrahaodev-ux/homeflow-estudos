@@ -9,6 +9,7 @@ const syne = Syne({
   variable: "--font-syne",
   weight: ["400", "600", "700", "800"],
   display: "swap",
+  preload: false,
 });
 
 const inter = Inter({
@@ -16,6 +17,7 @@ const inter = Inter({
   variable: "--font-inter",
   weight: ["400", "500", "600"],
   display: "swap",
+  preload: false,
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -23,6 +25,7 @@ const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains",
   weight: ["400", "500", "600"],
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
